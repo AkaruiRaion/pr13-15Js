@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">PR_13-15</div>
+        <nav class="menu"></nav>
+    </header>
+
+    <div class="btn-block">
+        <div class="color-box" id="colorBox"></div>
+        <div class="buttons">
+            <button id="startBtn">Старт</button>
+            <button id="stopBtn">Стоп</button>
+        </div>
+    </div>
+
+    <div class="tabs">
+        <div class="tabs__btns">
+            <div class="tab__btn active">HTML</div>
+            <div class="tab__btn">CSS</div>
+            <div class="tab__btn">JavaScript</div>
+            <div class="tab__btn">PHP</div>
+        </div>
+        <div class="tabs__items">
+            <div class="tab__text active">
+                HTML (HyperText Markup Language) — язык разметки веб-страниц. Он используется для создания структуры
+                веб-документа и определения его содержимого.
+            </div>
+            <div class="tab__text">
+                CSS (Cascading Style Sheets) — каскадные таблицы стилей. Этот язык используется для управления внешним
+                видом веб-сайта, включая шрифты, цвета, отступы, рамки и многое другое.
+            </div>
+            <div class="tab__text">
+                JavaScript — скриптовый язык программирования, который используется для добавления интерактивности на
+                веб-страницы. Он позволяет создавать динамические элементы, обрабатывать события, выполнять анимации и
+                взаимодействовать с сервером через AJAX.
+            </div>
+            <div class="tab__text">
+                PHP (Hypertext Preprocessor) — скриптовой язык программирования общего назначения, чаще всего
+                используемый для разработки веб-приложений. Он может быть использован для обработки данных на стороне
+                сервера, создания динамических страниц и взаимодействия с базами данных.
+            </div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider__body">
+            <div class="slider__arrow left"><img src="./assets/img/arrow-left.png" alt=""></div>
+            <div class="slider__images">
+                <div class="slider__item active">
+                    <img src="assets/img/img1.jpg" alt="#">
+                </div>
+                <div class="slider__item">
+                    <img src="assets/img/img2.png" alt="#">
+                </div>
+                <div class="slider__item">
+                    <img src="assets/img/img3.svg" alt="#">
+                </div>
+                <div class="slider__item">
+                    <img src="assets/img/img4.png" alt="#">
+                </div>
+            </div>
+            <div class="slider__arrow right"><img src="./assets/img/arrow-right.png" alt=""></div>
+        </div>
+        <div class="slider__nav">
+            <div data-index="0" class="slider__dot active"></div>
+            <div data-index="1" class="slider__dot"></div>
+            <div data-index="2" class="slider__dot"></div>
+            <div data-index="3" class="slider__dot"></div>
+        </div>
+    </div>
+
+    <div class="faq">
+        <div class="faq__item">
+            <h3>HTML</h3>
+            <p>HTML (HyperText Markup Language) — язык разметки веб-страниц. Он используется для создания структуры
+                веб-документа и определения его содержимого.</p>
+        </div>
+        <div class="faq__item">
+            <h3>CSS</h3>
+            <p>CSS (Cascading Style Sheets) — каскадные таблицы стилей. Этот язык используется для управления внешним
+                видом веб-сайта, включая шрифты, цвета, отступы, рамки и многое другое.</p>
+        </div>
+        <div class="faq__item">
+            <h3>JavaScript</h3>
+            <p>JavaScript — скриптовый язык программирования, который используется для добавления интерактивности на
+                веб-страницы. Он позволяет создавать динамические элементы, обрабатывать события, выполнять анимации и
+                взаимодействовать с сервером через AJAX.</p>
+        </div>
+        <div class="faq__item">
+            <h3>PHP</h3>
+            <p>PHP (Hypertext Preprocessor) — скриптовой язык программирования общего назначения, чаще всего
+                используемый для разработки веб-приложений. Он может быть использован для обработки данных на стороне
+                сервера, создания динамических страниц и взаимодействия с базами данных.</p>
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
